@@ -12,5 +12,5 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: { output: { manualChunks: { "vendor-react": ["react", "react-dom", "wouter"], "vendor-icons": ["lucide-react"] } } },
   },
-  server: { port: 3000, strictPort: false, host: true },
+  server: { port: 3000, strictPort: false, host: true, allowedHosts: true },
 });
