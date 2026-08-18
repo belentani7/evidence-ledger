@@ -1,4 +1,4 @@
-name: Quality
+name: Evidence Ledger Quality
 
 on:
   push:
